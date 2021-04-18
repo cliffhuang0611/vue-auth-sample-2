@@ -1,24 +1,8 @@
-# vue-auth-sample
+# vue-auth-sample-2
 
-## Project setup
-```
-npm install
-```
+## Project Description
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is a Vue example of handling a Vue App with pages locked behind a common Login component.
+The router-view is only accessed after a successful Login, and it utilizes the local storage to save a jwt of your authentication to restore the state after a refresh.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Another example of authentication handling involves a router direction to a specified Login page is on /vue-auth-sample.
